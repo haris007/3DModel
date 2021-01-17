@@ -298,7 +298,7 @@ floor.position.y = -1;
 scene.add(floor);
 
 // Add controls
-var controls = new THREE.OrbitControls(camera, renderer.domElement);
+var controls = new OrbitControls(camera, renderer.domElement);
 controls.maxPolarAngle = Math.PI / 2;
 controls.minPolarAngle = Math.PI / 3;
 controls.enableDamping = true;
